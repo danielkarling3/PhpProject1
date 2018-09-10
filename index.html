@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>VR</title>
+
+        <!--<!– Importei as bibliotecas para utilizar a Realidade Aumentada –>-->
+
+        <script src="aframe.min.js"></script>
+
+        <script src="aframe-ar.js"></script>
+
+        <!--<!– Arquivo css inline para ocultar o modo debug que vem na própria biblioteca –>-->
+
+    </head>
+    <style type="text/css">
+
+        #arjsDebugUIContainer
+
+        {
+
+            display: none; !important;
+
+        }
+
+        .a-enter-vr-button
+
+        {
+
+            display: none; !important;
+
+        }
+
+    </style>
+
+    <body>
+
+        <!--    <!– Insiro a tag <a-scene>, é responsável por criar o cenário, toda estrutura deve estar dentro dela –>-->
+
+    <a-scene>
+
+        <!--        <!– importo o arquivo pattern-marker.patt, responsável por comparar nossa imagem, tudo o que estiver na entidade câmera será exibido quando apontar a câmera para a imagem gerada –>-->
+
+        <a-marker-camera preset='custom' type='pattern' url='big-m2.patt'>
+
+            <!--            <!– Insiro uma imagem que será mostrada, configurações: posição, rotação e tamanho da imagem –>-->
+
+            <a-image position="0 0.2 0" rotation="270 0 0" height="1" width="1" src="calory.png"></a-image>
+
+            <!--            <!– Insiro uma imagem que será mostrada, configurações: posição, rotação e tamanho da imagem –>-->
+
+            <a-image position="0 0.4 0" rotation="270 0 0" height="1" width="1" src="c.jpg"></a-image>
+
+        </a-marker-camera>
+
+        <a-entity camera></a-entity>
+
+    </a-scene>
+
+</body>
+
+</html>

@@ -39,27 +39,12 @@
 
         <!--    <!– Insiro a tag <a-scene>, é responsável por criar o cenário, toda estrutura deve estar dentro dela –>-->
 
-    <a-scene>
-
-        <!--        <!– importo o arquivo pattern-marker.patt, responsável por comparar nossa imagem, tudo o que estiver na entidade câmera será exibido quando apontar a câmera para a imagem gerada –>-->
-
-        <a-marker-camera preset='custom' type='pattern' url='pattern-marker(2).patt'>
-
-            <!--            <!– Insiro uma imagem que será mostrada, configurações: posição, rotação e tamanho da imagem –>-->
-
-           <!-- <a-image position="0 0.2 0" rotation="270 0 0" height="1" width="1" src="marker.png"></a-image>-->
-             <a-image   height="4" width="4" src="marker.png"></a-image>
-
-            <!--            <!– Insiro uma imagem que será mostrada, configurações: posição, rotação e tamanho da imagem –>-->
-
-            <a-image height="2" width="2" src="marker.png"></a-image>
-
-        </a-marker-camera>
-
-        <a-entity camera></a-entity>
-
-    </a-scene>
-
-</body>
+<a-scene>
+  <a-sphere position="0 1.25 -5" radius="1.25" color="#EF2D5E"></a-sphere>
+  <a-box position="-1 0.5 -3" rotation="0 45 0" width="1" height="1" depth="1" color="#4CC3D9"></a-box>
+  <a-cylinder position="1 0.75 -3" radius="0.5" height="1.5" color="#FFC65D"></a-cylinder>
+  <a-plane position="0 0 -4" rotation="-90 0 0" width="4" height="4" color="#7BC8A4"></a-plane>
+  <a-sky color="#ECECEC"></a-sky>
+</a-scene></body>
 
 </html>

@@ -35,7 +35,7 @@
     </style>
 
     <body>
-        
+        <!--
   <a-scene>
 
         <!--        <!– importo o arquivo pattern-marker.patt, responsável por comparar nossa imagem, tudo o que estiver na entidade câmera será exibido quando apontar a câmera para a imagem gerada –>-->
@@ -57,7 +57,14 @@
         <a-entity camera></a-entity>
 
     </a-scene>
-
+-->
+    <!-- add artoolkit into your scene -->
+<a-scene artoolkit>
+        <!-- define your scene as usual -->
+        <a-box></a-box>
+        <!-- define a camera inside the <a-marker-camera> -->
+        <a-marker-camera preset='hiro'><a-marker-camera>
+</a-scene>
 </body>
 
 

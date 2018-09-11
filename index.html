@@ -53,10 +53,13 @@
 		 <a-image width="1.5" height="1.5" src="calory.png"></a-image>
         </a-marker>
 	    -->
+	<a-assets>
+          <video crossOrigin="anonymous" id="vid" autoplay loop="true" type="video/mp4" src="Clip_1080_5sec_10mbps_h264.mp4">
+     	</a-assets>
+		
 	<a-marker type='barcode' value='7'>
-            
-		 <a-video id='video' position='0 0.1 0' rotation='270 0 0' scale='1 0.5 1' autoplay muted="true"
-			  src="Clip_1080_5sec_10mbps_h264.mp4"></a-video>
+        	<a-video src="#vid" width="1.78" height="1" rotation="270 0 0" play="true"></a-video>    
+		 
         </a-marker>
 	
         <a-marker markerhandler emitevents="true" cursor="rayOrigin: mouse" id="animated-marker" type='barcode' value='6'>

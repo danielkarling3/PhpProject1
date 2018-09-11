@@ -14,7 +14,7 @@ AFRAME.registerComponent('markerhandler', {
             }
         });
     }
-    init: function () {
+    /*init: function () {
         this.playVideo = this.playVideo.bind(this);
         this.playVideoNextTick = this.playVideoNextTick.bind(this);
       },
@@ -33,6 +33,8 @@ AFRAME.registerComponent('markerhandler', {
         var video = this.el.components.material.material.map.image;
         if (!video) { return; }
         video.play();
-  }
+  }*/
 });
+const body = document.querySelector("#corpo");
+body.addEventListener('click', evt => document.querySelector('vid').play());
 

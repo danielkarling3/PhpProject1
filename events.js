@@ -4,6 +4,7 @@ AFRAME.registerComponent('markerhandler', {
     init: function() {
         const animatedMarker = document.querySelector("#animated-marker");
         const videoMarker = document.querySelector("#markVideo");
+        const video = document.querySelector("#vid");
 
         // every click, we make our model grow in size
         animatedMarker.addEventListener('click', function(ev, target){
@@ -16,7 +17,12 @@ AFRAME.registerComponent('markerhandler', {
         });
         
         videoMarker.addEventListener('click', function () {
-            playPauseVideo(); console.log("Video Play Toggle") 
+            playPauseVideo(); 
+            console.log("Video Play Toggle") 
+        });
+        video.addEventListener('click', function () {
+            playPauseVideo(); 
+            console.log("Video Play Toggle") 
         });
             playing = true;
        

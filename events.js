@@ -3,6 +3,7 @@ AFRAME.registerComponent('markerhandler', {
 
     init: function() {
         const animatedMarker = document.querySelector("#animated-marker");
+        const videoMarker = document.querySelector("#markVideo");
 
         // every click, we make our model grow in size
         animatedMarker.addEventListener('click', function(ev, target){
@@ -13,6 +14,20 @@ AFRAME.registerComponent('markerhandler', {
                 entity.setAttribute('scale', scale);
             }
         });
+        
+        videoMarker.addEventListener('click', function () {
+            playPauseVideo(); console.log("Video Play Toggle") 
+        });
+            playing = true;
+       
+    }
+    
+    function playPauseVideo(){
+        if (video.paused){
+            video.play();
+        }else{
+            video.pause();
+        }
     }
     /*init: function () {
         this.playVideo = this.playVideo.bind(this);
@@ -35,6 +50,6 @@ AFRAME.registerComponent('markerhandler', {
         video.play();
   }*/
 });
-const body = document.querySelector("#corpo");
-body.addEventListener('click', evt => document.querySelector('vid').play());
+//const body = document.querySelector("#corpo");
+//body.addEventListener('click', evt => document.querySelector('vid').play());
 

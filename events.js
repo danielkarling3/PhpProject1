@@ -28,13 +28,7 @@ AFRAME.registerComponent('markerhandler', {
        
     }
     
-    function playPauseVideo(){
-        if (video.paused){
-            video.play();
-        }else{
-            video.pause();
-        }
-    }
+    
     /*init: function () {
         this.playVideo = this.playVideo.bind(this);
         this.playVideoNextTick = this.playVideoNextTick.bind(this);
@@ -56,6 +50,14 @@ AFRAME.registerComponent('markerhandler', {
         video.play();
   }*/
 });
+
+function playPauseVideo(){
+    if (video.paused){
+        video.play();
+    }else{
+        video.pause();
+    }
+}
 //const body = document.querySelector("#corpo");
 //body.addEventListener('click', evt => document.querySelector('vid').play());
 

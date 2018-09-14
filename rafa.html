@@ -1,10 +1,9 @@
 
 <!doctype HTML>
-<html>
-	
+<html>	
     <head>
         <meta name="viewport" content="width=device-width, user-scalable=no, minimum-scale=1.0, maximum-scale=1.0">
-         <title>Rafa!</title>
+         <title>Rafa</title>
     </head>
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://rawgit.com/jeromeetienne/AR.js/master/aframe/build/aframe-ar.min.js"></script>
@@ -14,7 +13,7 @@
     
         <a-scene embedded arjs='sourceType: webcam; debugUIEnabled: false; detectionMode: mono_and_matrix; matrixCodeType: 3x3;'>
            <a-marker type='barcode' value='7'>
-                  <a-text position="0 0 0" rotation="270 0 0" font-size='35px' color="red" value="I LOVE YOU, ANGEL!!!!!" ></a-text>
+                  <a-text position="0 0.5 0" rotation="270 0 0" font-size='35px' color="red" value="I LOVE YOU, ANGEL!!!!!" ></a-text>
           </a-marker>	
 		<a-marker type='barcode' value='6'>
                    <a-box position='0 0.5 0' material='opacity: 0.5;'></a-box>

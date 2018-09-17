@@ -1,0 +1,589 @@
+.karling_btn {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 5px 9px;
+    background: -moz-linear-gradient(
+        top,
+        #2508ff 0%,
+        #000000);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#2508ff),
+        to(#000000));
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    border: 1px solid #5e72c4;
+    -moz-box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,0.4),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+
+.karling_btn_two{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 4px 7px;
+    background: -moz-linear-gradient(
+        top,
+        #5d87cf 0%,
+        #000000);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#5d87cf),
+        to(#000000));
+    -moz-border-radius: 13px;
+    -webkit-border-radius: 13px;
+    border-radius: 13px;
+    border: 1px solid #5e72c4;
+    -moz-box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,0.4),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+.karling_btn_two:hover{
+    opacity: 0.8;
+    color: black;
+}
+.karling_btn_two_active{
+    background: transparent;
+    border: transparent;
+    opacity: 0.8;
+    color: black;
+}
+
+
+.karling_btn_three{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: #ffffff;
+    padding: 6px 8px;
+    background: -moz-linear-gradient(
+        top,
+        #5d87bc 0%,
+        #000000);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#5d87bc),
+        to(#000000));
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 1px solid #5e72c4;
+    -moz-box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    box-shadow:
+        0px 1px 3px rgba(35,57,64,0.5),
+        inset 0px 0px 1px rgba(209,209,209,0.7);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,0.4),
+        0px 1px 0px rgba(255,255,255,0.3);
+}
+.karling_btn_three:hover{
+    opacity: 0.8;
+    color: black;
+}
+.karling_btn_three_active{
+    background: transparent;
+    border: transparent;
+    opacity: 0.8;
+    color: black;
+}
+
+.karling_btn_green {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 7px;
+    background: -moz-linear-gradient(
+        top,
+        #6cfa9e 0%,
+        #3b3b3b 55%,
+        #242424 58%,
+        #377039);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#6cfa9e),
+        color-stop(0.98, #3b3b3b),
+        color-stop(0.88, #1a1919),
+        to(#3b3433));
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: 1px solid #305e51;
+    -moz-box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.karling_btn_red {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 10px 7px;
+    background: -moz-linear-gradient(
+        top,
+        #f02400 0%,
+        #3b3b3b 44%,
+        #1a1919 79%,
+        #3b3433);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#f02400),
+        color-stop(0.98, #3b3b3b),
+        color-stop(0.88, #1a1919),
+        to(#3b3433));
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: 1px solid #3b3b3b;
+    -moz-box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.karling_btn_red_two {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #ffffff;
+    padding: 8px 7px;
+    background: -moz-linear-gradient(
+        top,
+        #f02400 0%,
+        #3b3b3b 50%,
+        #1a1919 50%,
+        #3b3433);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#f02400),
+        color-stop(0.98, #3b3b3b),
+        color-stop(0.88, #1a1919),
+        to(#3b3433));
+    -moz-border-radius: 12px;
+    -webkit-border-radius: 12px;
+    border-radius: 12px;
+    border: 0px solid #5c2237;
+    -moz-box-shadow:
+        0px 1px 3px rgba(230,227,230,0.7),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    box-shadow:
+        0px 1px 3px rgba(230,227,230,0.5),
+        inset 0px 0px 1px rgba(255,255,255,0.6);
+    text-shadow:
+        0px -1px 0px rgba(000,000,000,1),
+        0px 1px 0px rgba(255,255,255,0.2);
+}
+
+.karling_btn_gray {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: #fcf9fc;
+    padding: 8px 7px;
+    background: -moz-linear-gradient(
+        top,
+        #76738a 0%,
+        #5e5e5e 44%,
+        #242424 51%,
+        #7789bd);
+    background: -webkit-gradient(
+        linear, left top, left bottom,
+        from(#76738a),
+        color-stop(0.44, #5e5e5e),
+        color-stop(0.51, #242424),
+        to(#7789bd));
+    -moz-border-radius: 9px;
+    -webkit-border-radius: 9px;
+    border-radius: 9px;
+    border: 0px solid #000000;
+    -moz-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(5,0,5,0.6);
+    -webkit-box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(5,0,5,0.6);
+    box-shadow:
+        0px 1px 3px rgba(000,000,000,0.5),
+        inset 0px 0px 1px rgba(5,0,5,0.6);
+    text-shadow:
+        0px -1px 0px rgba(17,40,66,1),
+        0px 1px 0px rgba(138,171,29,0);
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+}
+
+.tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+    top: -5px;
+    left: 105%;
+}
+
+.tooltip:hover .tooltiptext {
+    visibility: visible;
+}
+
+.resize_h{
+    resize: horizontal;
+    overflow: auto;
+}
+.resize_v{
+    resize: vertical;
+    overflow: auto;
+}
+.karling_shadow {
+
+    text-shadow: 2px 4px 4px #000000;
+}
+.karling_shadow_red {
+
+    text-shadow: 2px 4px 4px #000000;
+}
+
+.karling_box_shadow {
+    box-shadow: 10px 5px 15px black, -1px -0.4px 30px gray;
+}
+.karling_button_shadow {
+    box-shadow: 2px 2px 10px;
+}
+.table-fixed tbody {
+    overflow-y: auto;
+    width: 100%;
+}
+.table-fixed thead,
+.table-fixed tbody,
+.table-fixed tr,
+.table-fixed td,
+.table-fixed th {
+    display: block;
+}
+.table-fixed tr:after {
+    content: "";
+    display: block;
+    visibility: hidden;
+}
+.table-fixed tbody td,
+.table-fixed thead > tr > th {
+    float: left;
+}
+
+.karling_background{
+    background-image: url(../img/logo.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;*/
+    width: 100%;
+    height: 20%;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+}
+.karling_background_1{
+    background-image: url(../img/fundo2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;*/
+    width: 100%;
+    /*height: 100%;*/
+    position:  static;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+
+}
+.karling_background_2{
+    background-image: url(fundo4.png);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;*/
+    width: 100%;
+    /*height: 100%;*/
+    position:  static;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+
+
+
+
+.karling_background_four{
+    background-image: url(Atenas2.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    /*    -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;*/
+    width: 100%;
+    height: 100%;
+    position:  static;
+    padding-top: 0px;
+    padding-bottom: 0px;
+
+}
+
+.karling_title{
+    font-family: sans-serif;
+    font-weight: bold;
+    color: #ffffff;
+    margin-top: 3%;
+    background: linear-gradient(to bottom, rgba(47,70,79, 0.6) 0%, rgba(47,70,79, 1) 100%);
+    margin-left: 25%; 
+    margin-right: 25%; 
+    padding-bottom: 3px;
+    padding-top: 1px;
+
+}
+
+.karling_cabecalho{
+    /*    position: relative;
+        height: 100%;*/
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    margin-top: 2px;
+    background: linear-gradient(to bottom, rgba(50, 100, 100, 0.5) 10%, rgba(10, 10, 0, 1) 90%);
+    color: white;
+}
+
+.karling_login {
+    /*    position: relative;*/
+    /*    height: 100%;*/
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, 
+        rgba(65,105,225, 0.5) 0%, 
+        rgba(0,0,139, 0.4) 100%);
+    color: white; 
+    border-style: solid;
+
+
+}
+
+.karling_index {
+    /*    position: relative;*/
+    /*    height: 100%;*/
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, rgba(200, 200, 256, 0.7) 0%, rgba(0, 0, 20, 0.8) 100%);
+    color: white;
+    margin-left: 28%;
+    margin-right: 28%;
+}
+
+
+.karling_modal {
+    /*    position: relative;*/
+    /*    height: 100%;*/
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background:  #E6E0F8;
+
+
+}
+.karling_modal_fother {
+    /*    position: relative;*/
+    /*    height: 100%;*/
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, #E6E0F8 20%, #BCA9F5 100%);
+
+
+}
+
+/*.karling_button_small{
+    padding: 1px;
+    background-color: #668cff; 
+    color: white;
+        padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px; 	
+    width:55px;  
+    height:30px;
+    border-radius: 10px;
+        
+}
+
+.karling_button_small_red{
+    padding: 1px;
+    background-color: #c9540c; 
+    color: white;
+        padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px; 	
+    width:55px;  
+    height:30px;
+    border-radius: 10px;
+        
+}*/
+
+.karling_button_submit{
+
+    background-color: #2F4F4F; 
+    color: white;
+    /*    padding: 15px 32px;*/
+    text-align: center;
+    display: inline-block;
+    font-size: 15px; 	
+
+}
+.karling_button_submit:hover{
+    background-color: #90EE90;
+    color: black;
+    font-size: 18px; 
+}
+.karling_button_submit:focus{
+    background-color: #90EE90;
+    color: black;
+    font-size: 18px; 
+}
+
+.karling_input{
+    color: blue;
+    font-size: 17;
+
+}
+.karling_input:focus{
+    color: black;
+    font-size: 20;
+}
+
+.karling_button_book{
+    background-color: #ccccff; 
+    color: black;
+    /*    padding: 15px 32px;*/
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;   
+}
+.karling_button_book_large{
+    background-color: #ccccff; 
+    color: black;
+    /*    padding: 15px 32px;*/
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;   
+}
+
+.karling_button_dark_large{
+    background-color: #483980; 
+    color: white;
+    /*    padding: 15px 32px;*/
+    text-align: center;
+    display: inline-block;
+    font-size: 18px;   
+}
+
+
+.karling_button_red_large{
+    background-color: #B04734; 
+    color: white;
+    /*    padding: 15px 32px;*/
+    text-align: center;
+    display: inline-block;
+    font-size: 20px;   
+}
+
+.karling_panel {
+    position: relative;
+
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, rgba(100, 200, 256, 0.7) 0%, rgba(0, 10, 1, 0.8) 100%);
+    color: white;  
+    /*    margin-right: 5%;
+       margin-left: 5%;*/
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.karling_panel_two {
+    position: relative;
+
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, rgba(100, 200, 256, 0.7) 0%, rgba(0, 10, 1, 0.8) 100%);
+    color: white;    
+    margin-top: 30%;
+    margin-bottom: 5%;
+
+    margin-left: 10%;
+    padding-bottom: 10px;
+    /*    margin-right: 10%;*/
+
+}
+.karling_background_two {
+
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, #F5ECCE 60%, #A4A4A4 100%);
+
+    /*    margin-right: 10%;*/
+
+}
+
+.karling_background_three {
+
+    /*    background: -webkit-gradient(linear, left top, left bottom, from(rgba(146, 135, 187, 0.8)), to(rgba(0, 0, 0, 0.6)));*/
+    background: linear-gradient(to bottom, #F5ECCE 60%, #F5ECCE 60%);
+
+    /*    margin-right: 10%;*/
+
+}
